@@ -27,7 +27,12 @@
             steps {
                 sh" echo 'the lord is good' "  
         }  
-            } 
+            }
+        stage('deployment3') {
+            steps {
+                sh" echo 'a new trial' "
+        }
+            }    
     }
     
     
