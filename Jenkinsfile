@@ -18,7 +18,7 @@ pipeline {
           steps {
                 echo 'third stage'
                 sh 'sudo hostnamectl set-hostname master'
-          }     sh 'hostname'
+           }    sh 'hostname'
        }
    }                   
 }   
