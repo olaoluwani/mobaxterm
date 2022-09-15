@@ -1,0 +1,10 @@
+#!/bin/bash
+#author:olaoluwa
+#this script will add 5 users
+clear
+ for k in ara emmma sade bukky blessing
+do
+ sudo  rm -rf /home/$k
+done
+date
+cal
